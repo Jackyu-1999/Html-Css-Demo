@@ -1,0 +1,12 @@
+
+.common-header {
+	background: url(img/banner.jpg) no-repeat center bottom;
+	background-size:cover;
+	background-attachment:fixed;
+	background-color:#CCCCCC;
+	height: 940px;
+}
+
+.display {
+	float: left;
+}

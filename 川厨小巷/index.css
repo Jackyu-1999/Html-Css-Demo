@@ -1,0 +1,301 @@
+body {
+	margin: 0px;
+	font-size: 12px;
+	background-color: #FFFFF0;
+}
+.logo {
+	margin-left: 20px;
+	margin-top: 10px;
+	width: 750px;
+	height: 80px;
+	float: left;
+	position: relative;
+	left: 430px;
+
+}
+.header {
+	width: 100%;
+	height: 1000;
+}
+.nav {
+	width: 1400px;
+	height:100px;
+	position: relative;
+	right: 125px;
+}
+.nav-a {
+	float: left;
+}
+.nav-a a {
+	font-size: 16px;
+	font-weight: bold; 
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	width: 120px; 
+	height:60px;
+	line-height:60px;
+}
+
+.nav-a a:link,a:visited {
+	color: #333;
+}
+.nav-a a:hover {
+	color: #FFF;
+	background-color: #b0000d;
+}
+#top {
+	float:left;
+	position:relative;
+	left: 50%;
+}
+
+.top {
+	position: relative;
+	left: -50%;
+
+}
+ .top img {
+	display: block;
+
+} 
+.text {
+	clear: both;
+	text-align: center;
+}
+.line {
+	width:700px;
+	height:4px; 
+	background:#b0000d;
+	margin: 0 auto;
+	position: relative;
+	top:10px;
+}
+.banner {
+	width: 900px;
+	height: 300px;
+	clear: both;
+	margin: 0 auto;
+}
+#h-1 {
+	font-size: 16px;
+	font-weight: solid;
+	color: #af000f;
+	width: 130px;
+	height: 50px;
+	float: left;
+	position: relative;
+	left: 97px;
+
+}
+#h-2 {
+	font-size: 16px;
+	font-weight: solid;
+	color: #af000f;
+	width: 160px;
+	height: 50px;
+	float: left;
+	position: relative;
+	left: 320px;
+}
+.food {
+	clear: both;
+	width: 880px;
+	height: 150px;
+
+}
+#food1 {
+	width: 302px;
+	height: 102px;
+	float: left;
+	position: relative;
+	top: 30px;
+	left: 100px;
+	border: 2px solid #b0000d;
+	padding: 4px;
+}
+#food2 {
+	width: 302px;
+	height: 102px;
+	float: left;
+	position: relative;
+	top: 30px;
+	left: 150px;
+	border: 2px solid #b0000d;
+	padding: 4px;
+}
+.info {
+	clear: both;
+	width: 880px;
+	height: 60px;	
+}
+#info1 {
+	width: 302px;
+	height: 102px;
+	float: left;
+	position: relative;
+	left: 100px;
+	line-height: 180%;
+	color: #666;	
+}
+#info2 {
+	width: 302px;
+	height: 102px;	
+	float: left;
+	position: relative;
+	left: 170px;
+	line-height: 180%;
+	color: #666;	
+}
+.more {
+	clear: both;
+	width: 880px;
+	height: 50px;	
+	position: relative;
+	top: -50px;	
+}
+
+/*鼠标经过切换图片*/
+#more1 a {
+	float: left;
+	width: 80px;
+	height: 24px;
+	position: relative;
+	left: 220px;
+	top: 15px;
+	background: url(images/more.jpg);
+}
+#more1 a:hover {
+	background: url(images/more.gif);
+
+}
+#more2 a {
+	float: left;
+	width: 80px;
+	height: 24px;
+	position: relative;
+	left: 520px;
+	top: 15px;
+	background: url(images/more.jpg);
+}
+#more2 a:hover {
+	background: url(images/more.gif);
+}
+
+/*图片滚动*/
+.picutre {
+	overflow: hidden;
+	height: 150px; 
+	width: 950px; 
+	margin: 0 auto;
+	position: relative;
+	top: 19px;
+}
+.picutre img {
+	width:200px; 
+	height:150px; 
+	border:0px;
+	padding: 5px;
+}
+.list {
+	clear: both;
+	width: 400px;
+	height: 40px;
+	margin: 0 auto;
+}
+.cai {
+	width: 370px;
+	height: 30px;
+	position: relative;
+	left: 110px;
+	bottom: 20px;
+}
+
+/*底部页脚*/
+.footer {
+	width: 950px;
+	height: 300px;
+	margin: 0 auto;
+	background-color: #252525;
+	font-family: arial;
+}
+.fot1 {
+	position: relative;
+	top: 100px;
+	left: 300px;
+	color: #CCC;
+	padding: 10px;
+}
+.ft {
+	position: relative;
+	top: 100px;
+	left: 300px;
+	color: #CCC;
+	padding: 10px;
+}
+#ft1 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFF;
+
+}
+
+
+/*底部第1行文字*/
+#ft1-1  {
+	position: relative;
+	right: 200px;
+}
+#ft1-2  {
+	position: relative;
+	left: -100px;
+}
+#ft1-3  {
+	position: relative;
+	left: 235px;
+}
+
+/*底部第2行文字*/
+#ft2-1 {
+	position: relative;
+	right: 200px;
+}
+#ft2-2 {
+	position: relative;
+	left: -101px;
+}
+#ft2-3 {
+	position: relative;
+	left: 100px;
+}
+/*底部第3行文字*/
+#ft3-1 {
+	position: relative;
+	right: 200px;
+}
+#ft3-2 {
+	position: relative;
+	left: -101px;
+}
+#ft3-3 {
+	position: relative;
+	left: 170px;
+}
+
+/*底部第4行文字*/
+#ft4-1 {
+	position: relative;
+	right: 200px;
+}
+#ft4-2 {
+	position: relative;
+	left: -97px;
+}
+#ft4-3 {
+	position: relative;
+	left: 209px;
+}
+
+
+
+

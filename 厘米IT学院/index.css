@@ -1,0 +1,242 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	
+}
+
+.index-mian-top {
+	height: 411px;
+	background: url(img/bg.gif) repeat;
+	
+}
+
+.index-main {
+	background-color: #ffffff;
+}
+.index-main-clouds {
+	height: 411px;
+	background: url(img/clouds.gif) repeat;
+}
+.index-header {
+	height: 100px;
+}
+
+.header {
+	height: 54px;
+	width: 1000px;
+	padding-top: 20px;
+	
+}
+	
+.clearfloat {
+	zoom: 1;
+}
+
+.clearfloat:after {
+	display: block;
+	clear: both;
+	content: '';
+	visibility: hidden;
+	height: 0;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+.index-header .logo {
+	float: left;
+	width: 220px;
+	height: 54px;
+	background: url(img/logo.png);
+}
+
+.nav {
+	float: right;
+	width: 780px;
+	height: 54px;
+	background-color: #393838;
+}
+
+.nav div {
+	list-style: none;
+	
+}
+
+.nav div a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	display: block;
+	text-align: center;
+	width: 84px;
+	height: 54px;
+	line-height: 54px;
+}
+
+.nav div a:hover{
+	background-color:#444444;
+	
+} 
+.item {
+	float: left;
+}
+
+.banner {
+	width: 1000px;
+	height: 292px;
+	background: url(img/banner.png);
+}
+
+.index-content {
+	width: 1000px;
+	height: 686px;
+	padding-bottom: 5px;
+}
+
+.content {
+	width: 1000px;
+	height: 670px;
+	background-color: #eaeaea;
+}
+
+.content-left-box {
+	width: 680px;
+	height: 670px;
+	float: left;
+}
+
+.content-left {
+	margin: 10px;
+	width: 660px;
+	height: 660px;
+}
+
+.content-left-text h2 {
+	font-size: 24px;
+	color: #990000;
+}
+.content-left-text {
+	font-family: "SimSun";
+	font-size: 14px;
+}
+
+.content-right-box {
+	width: 320px;
+	height: 670px;
+	float: left;
+} 
+
+
+.content-right {
+	width: 300px;
+	height: 660px;
+	margin: 10px;
+}
+
+
+/* 右边顶部内容 */
+.content-right-top-t1 {
+	color: #fff;
+	font-size: 14px;
+	width: 300px;
+	height: 32px;
+	background: url(img/title.png);
+}
+
+.content-right-top-li {
+	width: 300px;
+	height: 156px;
+	font-size: 12px;
+	font-family: "SimSun";
+}
+
+.content-right-top-li p {
+	margin: 10px;
+}
+
+.content-right-top-text {
+	font-family: "SimSun";
+	font-size: 12px;
+	background: url(img/dot.gif) no-repeat;
+	background-position: left center;
+}
+
+.content-right-top-t1 p {
+	position: relative;
+	left: 20px;
+	height: 32px;
+	line-height: 32px;
+}
+
+
+/* 右边底部的内容 */
+.content-right-bottom-t2 {
+	color: #fff;
+	font-size: 14px;
+	width: 300px;
+	height: 32px;
+	background: url(img/title.png);
+}
+
+.content-right-bottom-li {
+	width: 300px;
+	height: 440px;
+	font-size: 12px;
+	font-family: "SimSun";
+}
+
+.content-right-bottom-li p {
+	margin: 10px;
+}
+
+.content-right-bottom-text {
+	font-family: "SimSun";
+	font-size: 12px;
+	background: url(img/dot.gif) no-repeat;
+	background-position: left center;
+}
+
+.content-right-bottom-t2 p {
+	position: relative;
+	left: 20px;
+	height: 32px;
+	line-height: 32px;
+}
+
+ /* 底部 */
+.index-footer {
+	width: 1000px;
+	height: 76px;
+	background-color: #444444;
+}
+
+.footer {
+	width: 500px;
+	height: 60px;
+	margin: 0 auto;
+	position: relative;
+	bottom: 10px;
+	padding: 34px;
+}
+.footer li {
+	list-style: none;
+	float: left;
+	font-size: 12px;
+	list-style-type: none;
+	margin-left: 8px;
+	color: #fff;
+}
+.footer li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#icp {
+	height: 10px;
+	font-size: 12px;
+	position: relative;
+	left: 70px;
+	color: #fff;
+}

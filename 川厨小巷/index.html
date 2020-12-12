@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>川厨小巷</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body onload="load()">
+	<div class="header">
+
+		<div class="nav">
+			<div class="logo"><img src="images/logo.jpg"></div>
+			<div class="nav-a"><a href="#" >关于我们</a></div>
+			<div class="nav-a"><a href="#" >品牌文化</a></div>
+			<div class="nav-a"><a href="#" >新闻中心</a></div>
+			<div class="nav-a"><a href="#" >经典食材</a></div>
+			<div class="nav-a"><a href="mailto:jack-yu@example.com?Subject=Hello%20again" target="_top">联系我们</a></div>
+		</div>
+
+		<div id="top">
+			
+			<div class="top"><img src="images/top_01.jpg"></div>
+			<div class="top"><img src="images/top_02.jpg"></div>
+			<div class="top"><img src="images/top_03.jpg"></div>
+
+		</div>
+
+		<div class="text">中国饮食文化</div>
+
+		<div class="text">中国饮食文化源远流长，现在普遍承认的有八大菜系鲁菜、川菜、粤菜和苏菜，闽菜、浙菜、湘菜、徽菜。
+		</div>
+	</div>
+
+	<div class="line"></div>
+
+	<div class="banner">
+		<div id="h-1"> <h2>川菜口水鸡</h2> </div>
+		<div id="h-2"> <h2>川菜夫妻肺片</h2> </div>
+
+		<div class="food">
+			<div id="food1"><img src="images/koushuiji.jpg"></div>
+			<div id="food2"><img src="images/fuqifeipian.jpg"></div>
+		</div>
+
+		<div class="info">
+			<div id="info1">我国的菜系，是指在一定区域内，由于气候、地理、历史、物产及饮食风俗的不同，经过漫长历史演变而形成的一整套自成体系的烹饪技艺和风味。</div>
+			<div id="info2">我国的菜系，是指在一定区域内，由于气候、地理、历史、物产及饮食风俗的不同，经过漫长历史演变而形成的一整套自成体系的烹饪技艺和风味。</div>
+		</div>
+
+		<div class="more">
+			<div id="more1"><a href="#"></a></div>
+			<div id="more2"><a href="#"></a></div>
+		</div>
+		
+	</div>
+
+	<div class="list">
+		<div class="cai"><img src="images/caipin.gif"></div>
+		<div><img src="images/caidan.gif"></div>
+	</div>
+	
+
+	<div id="list" class=" picutre">
+		<table  style="width: 680px; border: 0px;">
+		   <tr>
+		   <td id="list1">
+		       <table  cellpadding="0" cellspacing="0">
+		       <tr id="pic">
+		       <td><img src="images/1.jpg" /></td>
+		       <td><img src="images/2.jpg" /></td>
+		       <td><img src="images/3.jpg" /></td>
+		       <td><img src="images/4.jpg" /></td>
+		       <td><img src="images/5.jpg" /></td>
+		       </tr>
+		       </table>
+		   </td>
+		   <td id="list2"></td>
+		   </tr>
+		</table>
+	</div>
+
+	<div class="footer">
+
+		<div class="fot1" id="ft1">
+		 <span id="ft1-1">关于我们</span> <span id="ft1-2">联系我们</span> <span id="ft1-3">版权声明</span>
+		</div>
+
+		<div class="ft"> 
+			<span id="ft2-1">品牌故事</span>	<span id="ft2-2">地址：山东省蓬莱市海滨西路34号</span> <span id="ft2-3">copyright © 2015</span>
+		</div>
+		<div class="ft"> 
+			<span id="ft3-1">兑换礼品</span> <span id="ft3-2">热线：0535-3737722</span>	<span id="ft3-3">中国网页设计</span>
+		</div>
+		<div class="ft"> 
+			<span id="ft4-1">申请试吃</span><span id="ft4-2">邮编：265600</span>  <span id="ft4-3">www.xin126.cn</span>
+		</div>
+
+	</div>
+
+
+
+<script type="text/javascript">
+/*图片滚动效果*/
+var speedpic = 20;//速度数值越大速度越慢
+document.getElementById("list2").innerHTML = document.getElementById("list1").innerHTML;
+function Marqueepic() {
+if (document.getElementById("list2").offsetWidth- document.getElementById("list").scrollLeft <= 0) {
+  document.getElementById("list").scrollLeft -= document.getElementById("list1").offsetWidth;
+} else {  document.getElementById("list").scrollLeft++; }
+}
+var MyMarpic = setInterval(Marqueepic, speedpic);
+document.getElementById("list").onmouseover = function() {
+clearInterval(MyMarpic);
+}
+document.getElementById("list").onmouseout = function() {
+MyMarpic = setInterval(Marqueepic, speedpic);
+}
+
+</script>
+
+
+</body>
+</html>

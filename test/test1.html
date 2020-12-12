@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style> 
+.b{ 
+position: absolute; 
+z-index: 2; 
+width: 0; 
+height: 0; 
+line-height: 0; 
+font-size: 0; 
+border-width: 95px; /*如果想改变倒三角形的大小,就改变这里的像素值*/ 
+border-style: solid; 
+border-color: #666 #fff #fff #fff; /*如果倒三角形的父元素背景不是白色,就把后面三个#fff改为对应的背景色*/ 
+top: 13px; 
+left: 40px; /*如果倒三角形前面的字多于两个,就设置这里的像素值大些*/ 
+} 
+.demo{ 
+position: relative; 
+display: inline-block; /*这一句不可少*/ 
+vertical-align: middle; 
+z-index: 0; 
+height: 32px; 
+line-height: 32px; /*这一句不可少*/ 
+cursor: pointer; 
+} 
+</style> 
+
+</head>
+<body>
+	<span class='demo'> 
+南京 
+<b class='b'></b> 
+</span> 
+</body>
+</html>
+
+
