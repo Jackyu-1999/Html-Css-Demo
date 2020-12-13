@@ -1,0 +1,158 @@
+/* 公用样式 */
+.left-float {
+	float: left;
+}
+.right-float {
+	float: right;
+}
+html { 
+	overflow-x: hidden; 
+	overflow-y: auto; 
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	zoom: 1;
+}
+.header-logo {
+	width: 1530px;
+	height: 96px;
+	/* background-color: paleturquoise; */
+}
+.header-left-logo {
+	width: 230px;
+	height: 96px;
+	background: url(img/logo.png) no-repeat;
+	position: absolute;
+	left: 15%;
+	top: 18px;
+}
+.header-right-logo {
+	width: 860px;
+	height: 96px;
+	position: relative;
+	right: 6%;
+	top: 26px;
+}
+.header-nav ul li a:hover   {
+	color:deeppink;
+}
+/* 使用css实现鼠标移入一级菜单，底部出现带颜色的下滑线 */
+.header-nav ul .nav-item:before {
+	content: '';
+	display: none;
+	width: 100%;
+	height: 3px;
+	background:deeppink;
+	position: absolute;
+	top: 27px;
+	left: 0px;
+}
+
+.header-nav ul li.nav-item:hover:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 3px;
+	background: deeppink;
+	position: absolute;
+	top: 27px;
+	left: 0px;
+}
+.banner {
+	width: 100%;
+	height: 604px;
+	background: url(img/banner.png) no-repeat center;
+}
+.about {
+	width: 100%;
+	height: 706px;
+	background: url(img/about-bg.png) no-repeat;
+	background-position: 0 center;
+}
+.shops {
+	width: 100%;
+	height: 1288px;
+	background: url(img/shops-bg.png) no-repeat;
+	background-position: 0 center;
+}
+.offers {
+	width: 100%;
+	height: 1000px;
+	background: #fbfafc;
+}
+.events {
+	width: 100%;
+	height: 734px;
+}
+.footer-line {
+	height: 2px;
+	width: 1100px;
+	background-color: #f3f2f5;
+	margin: 0 auto;
+}
+.footer-icon {
+	width: 200px;
+	height: 32px;
+	margin: 0 auto;
+	position: relative;
+	top: 80px;
+}
+.footer-box {
+	width: 100%;
+	height: 530px;
+	background: url(./img/footer-bg.png) no-repeat;
+	background-position: bottom;
+}
+/*下拉前箭头*/
+select{
+	/*取消默认箭头开始*/
+	appearance:none;
+	/*取消默认箭头结束*/
+	width: 9rem;
+	font-size: 1rem;
+	color: #666;
+	text-align-last: center; /* 文本居中*/
+	background: url(./img/select-icon.png) no-repeat right 0.5rem center;
+	background-size: 0.8rem 0.45rem;
+}
+::-webkit-input-placeholder { 
+    color: #eaeaea;
+}
+
+/* div画圆圈加阴影 */
+.bubble{   
+	filter:alpha(opacity:30); 
+	border-radius: 50%;         
+	box-shadow: 4px 8px 10px #edecee;
+}
+/* 消息框 */
+.shops-message {
+	width: 202px;
+    height: 44px;
+	background-color: #F8F8F8;
+	margin:100px;
+	position: relative;
+	left: 600px;
+	top: 120px;
+	text-align: center;
+	line-height: 44px;
+	font-weight: bold;
+}
+
+.shops-message::before{
+	content:"";
+	position: absolute;
+	width: 20px;
+	height: 60px;
+	background-color: #F8F8F8;
+	transform:rotate(45deg);
+	left:40%;
+	top:-15px;
+}

@@ -1,0 +1,817 @@
+/* 专用样式 */
+
+.header-right-logo .clock-logo {
+	width: 262px;
+	height: 70px;
+	background: url(img/header-clock-logo.png) no-repeat;
+}
+.header-right-logo .phone-logo {
+	width: 262px;
+	height: 70px;
+	background: url(img/header-phone-logo.png) no-repeat;
+	position: relative;
+	left: 40px;
+}
+.header-right-logo .mail-logo {
+	width: 262px;
+	height: 70px;
+	background: url(img/header-mail-logo.png) no-repeat;
+}
+.header-right-logo .clock-logo .clock-logo-p1 {
+	color: pink;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	left: 40px;
+}
+
+.header-right-logo .clock-logo .clock-logo-p2 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #1b273d;
+	position: relative;
+	left: 40px;
+	bottom: 14px;
+}
+.header-right-logo .phone-logo .phone-logo-p1 {
+	color: pink;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	left: 40px;
+}
+
+.header-right-logo .phone-logo .phone-logo-p2 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #1b273d;
+	position: relative;
+	left: 40px;
+	bottom: 14px;
+}
+.header-right-logo .mail-logo .mail-logo-p1 {
+	color: pink;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	left: 40px;
+}
+
+.header-right-logo .mail-logo .mail-logo-p2 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #1b273d;
+	position: relative;
+	left: 40px;
+	bottom: 14px;
+}
+.header-nav {
+	width: 1130px;
+	height: 30px;
+	margin: 0 auto;
+	position: relative;
+	bottom: 10px;
+}
+.header-nav ul li {
+	text-align: center;
+	line-height: 50px;
+	float: left;
+	position: relative;
+	margin-left: 30px;
+	height: 30px;
+	line-height: 30px;
+}
+.header-nav ul li a {
+	margin: 0 auto;
+	color: #1b273d;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px;
+}
+.banner-text {
+	width: 456px;
+	height: 250px;
+	background-color: rgba(220,49,124,0.5);
+	position: relative;
+	top: 160px;
+	left: 290px;
+}
+.banner-button {
+	width: 220px;
+	height: 66px;
+	background-color: rgba(242,203,6,0.9);
+	position: relative;
+	top: 122px;
+	left: 342px;
+	color: #5a414b;
+	line-height: 66px;
+	text-align: center;
+	font-weight: bold;
+}
+.banner-text .banner-text-large {
+	font-size: 30px;
+	color: #fff;
+	position: relative;
+	left: 30px;
+	top: 30px;
+}
+.banner-text .banner-text-p {
+	color: #fff;
+	position: relative;
+	left: 30px;
+	top: 50px;
+	font-weight: bold;
+}
+.banner-text .banner-text-p h2 {
+	font-size: 40px;
+}
+.banner-text .banner-text-p p {
+	font-size: 18px;
+}
+
+.about-article {
+	width: 600px;
+	height: 550px;
+	position: relative;
+	left: 200px;
+	top: 160px;
+}
+
+.about-article hgroup h2 {
+	color: #230f64;
+	font-size: 36px;
+}
+
+.about-article hgroup h1 {
+	color: #230f64;
+	font-size: 48px;
+}
+.about-article hgroup .about-line {
+	width: 164px;
+	height: 12px;
+	background: url(img/about-line.png) no-repeat;
+	background-position: 0 10px;
+}
+.about-article hgroup h3 {
+	color: deeppink;
+	font-size: 22px;
+	position: relative;
+	left: 180px;
+}
+.about-article  p {
+	position: relative;
+	top: 50px;
+	font-weight: bold;
+}
+.about-button {
+	width: 226px;
+	height: 68px;
+	position: relative;
+	left: 240px;
+	background-color: rgba(220,30,115,0.8);
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	line-height: 68px;
+}
+.about .about-stairs {
+	width: 450px;
+	height: 246px;
+	background-image: ;;
+	background: url(img/stairs.png) no-repeat;
+	position: relative;
+	left: 850px;
+	bottom: 500px;
+	box-shadow: 0px 10px 15px #888888;
+	 /* opacity:0.5; */
+	 
+}
+.about .about-girls-pic {
+	width: 238px;
+	height: 204px;
+	background: url(img/girls-pic.png) no-repeat;
+	position: relative;
+	left: 940px;
+	bottom: 440px;
+}
+.about .about-shopping-cart {
+	width: 515px;
+	height: 374px;
+	background: url(img/shopping-cart.png) no-repeat;
+	position: relative;
+	left: 990px;
+	bottom: 800px;
+	z-index: -1;
+}
+
+.shops .shops-content {
+	width: 1100px;
+	height: 404px;
+	margin: 0 auto;
+	position: relative;
+	top: 200px;
+}
+.shops .shops-content h2 {
+	color: #230f64;
+	font-size: 44px;
+	font-weight: 900;
+	text-align: center;
+	position: relative;
+	top: 70px;
+}
+.shops .shops-content p {
+	color: #dc1e73;
+	font-size: 34px;
+	text-align: center;
+	position: relative;
+	top: 70px;
+}
+.shops .shops-form {
+	width: 1000px;
+	height: 70px;
+	position: relative;
+	top: 150px;
+	margin: 0 auto;
+}
+
+.shops .shops-form input {
+	width: 300px;
+	height: 60px;
+	border: 1px solid #eaeaea;
+}
+.shops .shops-form select {
+	color: #eaeaea;
+	width: 300px;
+	height: 60px;
+	border: 1px solid #eaeaea;
+}
+.shops .shops-form button {
+	width: 74px;
+	height: 60px;
+	background-color: rgba(220,30,115,0.6);
+}
+
+.logo-king {
+	width: 100px;
+	height: 100px;      
+	background: url(img/king.png) no-repeat;
+	position: relative;
+	top: 200px;
+	left: 200px;
+}
+.logo-pumb {
+	width: 100px;
+	height: 100px;      
+	background: url(img/pumb.png) no-repeat;
+	position: relative;
+	top: 630px;
+	left: 940px;
+}
+.logo-pvr {
+	width: 100px;
+	height: 100px;      
+	background: url(img/pvr.png) no-repeat;
+	position: relative;
+	top: 530px;
+	left: 500px;
+}
+.logo-tomato {
+	width: 100px;
+	height: 100px;      
+	background: url(img/tomato.png) no-repeat;
+	position: relative;
+	top: 70px;
+	left: 400px;
+}
+.logo-nike {
+	width: 100px;
+	height: 100px;      
+	background: url(img/nike.png) no-repeat;
+	position: relative;
+	top: 210px;
+	left: 730px;
+}
+.logo-m {
+	width: 100px;
+	height: 100px;      
+	background: url(img/M.png) no-repeat;
+	position: relative;
+	left: 880px;
+	bottom: 430px;
+}
+.logo-levis {
+	width: 100px;
+	height: 100px;      
+	background: url(img/levis.png) no-repeat;
+	position: relative;
+	top: -640px;
+	left: 1160px;
+}
+.logo-horse {
+	width: 100px;
+	height: 100px;      
+	background: url(img/horse.png) no-repeat;
+	position: relative;
+	bottom: 430px;
+	left: 1100px;
+}
+.logo-horn {
+	width: 100px;
+	height: 100px;      
+	background: url(img/horn.png) no-repeat;
+	position: relative;
+	bottom: 280px;
+	left: 240px;
+}
+.logo-lifestyle {
+	width: 100px;
+	height: 100px;      
+	background: url(img/lifestyle.png) no-repeat;
+	position: relative;
+	bottom: 400px;
+	left: 1200px;
+}
+.logo-reebok {
+	width: 100px;
+	height: 100px;      
+	background: url(img/reebok.png) no-repeat;
+	position: relative;
+	bottom: 860px;
+	left: 640px;
+}
+.offers .offers-text {
+	width: 810px;
+	height: 190px;
+	margin: 0 auto;
+	position: relative;
+	top: 160px;
+}
+.offers .offers-text h3 {
+	font-weight: bold;
+	font-size: 36px;
+	text-align: center;
+}
+.offers .offers-text p {
+	font-weight: bold;
+	font-size: 20px;
+	color: #dc1e73;
+	text-align: center;
+	position: relative;
+	top: 20px;
+}
+
+.offers .offers-box{
+	width: 1300px;
+	height: 666px;
+	position: relative;
+	left: 218px;
+	top: 130px;
+}
+.offers .offers-box .pic-1 {
+	width: 304px;
+	height: 520px;
+	background: url(img/offers-1.png);
+	position: relative;
+	top: 60px;
+	left: 60px;
+	box-shadow: 0px 10px 15px #cac6d3;
+}
+.offers .offers-box .pic-2 {
+	width: 304px;
+	height: 520px;
+	background: url(img/offers-2.png);
+	position: relative;
+	top: 30px;
+	left: 88px;
+	box-shadow: 0px 10px 15px #cac6d3;
+}
+.offers .offers-box .pic-3 {
+	width: 304px;
+	height: 520px;
+	background: url(img/offers-3.png);
+	position: relative;
+	top: 60px;
+	left: 118px;
+	box-shadow: 0px 10px 15px #cac6d3;
+}
+.offers .offers-box .pic-4 {
+	width: 244px;
+	height: 520px;
+	background: url(img/offers-4.png);
+	position: relative;
+	top: 30px;
+	left: 144px;
+	box-shadow: 0px 10px 15px #cac6d3;
+}
+.offers .offers-arrow {
+	width: 120px;
+	height: 50px;
+	background: url(img/arrow.png) no-repeat;
+	position: relative;
+	margin: 0 auto;
+	bottom: -60px;
+}
+.events .events-content {
+	width: 900px;
+	height: 480px;
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
+}
+.events .events-text {
+	width: 360px;
+	height: 114px;
+	margin: 0 auto;
+	position: relative;
+	top: 50px;
+}
+.events .events-text h2 {
+	font-size: 36px;
+	text-align: center;
+}
+.events .events-text p {
+	color: deeppink;
+	font-size: 20px;
+	text-align: center;
+}
+/* events-content-left */
+.events-content .events-content-left {
+	width: 450px;
+	height: 480px;
+}
+.events-content .events-content-left h4 {
+	font-size: 34px;
+	position: relative;
+	top: 80px;
+	left: 20px;
+}
+.events-content .events-content-left h6 {
+	font-size: 18px;
+	position: relative;
+	top: 80px;
+	left: 20px;
+}
+.events-content .events-content-left p {
+	font-weight: bold;
+	position: relative;
+	top: 90px;
+	left: 20px;
+	
+}
+.events-content .events-content-left h5 {
+	font-size: 18px;
+	position: relative;
+	top: 80px;
+	left: 20px;
+}
+.events-content .events-content-left button {
+	width: 140px;
+	height: 40px;
+	position: relative;
+	top: 120px;
+	left: 20px;
+	background-color: pink;
+	color: #fff;
+	font-weight: bold;
+	line-height:40px ;
+}
+.events-content .events-content-left .events-button-left {
+	width: 16px;
+	height: 15px;
+	background: url(img/up-arrow.png) no-repeat;
+	position: relative;
+	left: 132px;
+	top: 95px;
+
+}
+.events-content .events-content-left .events-left-pic {
+	width: 252px;
+	height: 248px;
+	background: url(img/up-girl.png) no-repeat;
+	position: relative;
+	left: 290px;
+	bottom: 140px;
+}
+.events-content .events-content-left .events-msg {
+	width: 20px;
+	height: 16px;
+	background: url(img/up-mes.png) no-repeat;
+	position: relative;
+	left: 250px;
+	top: 46px;
+}
+/* events-content-right */
+.events-content .events-content-right {
+	width: 450px;
+	height: 480px;
+	position: relative;
+	bottom: 480px;
+	left: 500px;
+}
+.events-content .events-content-right h4 {
+	font-size: 34px;
+	position: relative;
+	top: 80px;
+	left: 60px;
+}
+.events-content .events-content-right h6 {
+	font-size: 18px;
+	position: relative;
+	top: 80px;
+	left: 60px;
+}
+.events-content .events-content-right p {
+	font-weight: bold;
+	position: relative;
+	top: 90px;
+	left: 60px;
+	
+}
+.events-content .events-content-right h5 {
+	font-size: 18px;
+	position: relative;
+	top: 80px;
+	left: 60px;
+}
+.events-content .events-content-right button {
+	width: 140px;
+	height: 40px;
+	position: relative;
+	top: 120px;
+	left: 60px;
+	background-color: pink;
+	color: #fff;
+	font-weight: bold;
+	line-height:40px ;
+}
+.events-content .events-content-right .events-button-right {
+	width: 16px;
+	height: 15px;
+	background: url(img/up-arrow.png) no-repeat;
+	position: relative;
+	left: 170px;
+	top: 95px;
+
+}
+.events-content .events-content-right .events-right-pic {
+	width: 251px;
+	height: 247px;
+	background: url(img/up-cake.png) no-repeat;
+	position: relative;
+	left: 290px;
+	bottom: 140px;
+}
+.events-content .events-content-right .events-msg {
+	width: 20px;
+	height: 16px;
+	background: url(img/up-mes.png) no-repeat;
+	position: relative;
+	left: 250px;
+	top: 46px;
+}
+
+.events .up-left-arrow {
+	margin: 0 auto;
+	width: 17px;
+	height: 17px;
+	background: url(img/up-left-arrow.png) no-repeat;
+}
+.events .up-right-arrow {
+	margin: 0 auto;
+	width: 17px;
+	height: 17px;
+	background: url(img/up-right-arrow.png) no-repeat;
+	position: relative;
+	bottom: 17px;
+	left: 40px;
+}
+.footer-icon .icon-facebook {
+	width: 27px;
+	height: 27px;
+	background-color: #3b5999;
+	margin-left: 10px;
+}
+
+.footer-icon .icon-twitter {
+	width: 27px;
+	height: 27px;
+	background-color: #00aced;
+	margin-left: 10px;
+}
+.footer-icon .icon-google {
+	width: 27px;
+	height: 27px;
+	background-color: #eb4537;
+	margin-left: 10px;
+}
+.footer-icon .icon-ins {
+	width: 27px;
+	height: 27px;
+	background-color: #c536a4;
+	margin-left: 10px;
+}
+.footer-icon .icon-rss {
+	width: 27px;
+	height: 27px;
+	background-color: #f7810d;
+	margin-left: 10px;
+}
+
+.footer-box .footer-href {
+	width: 1140px;
+	height: 64px;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	top: 180px;
+} 
+.footer-box .footer-list {
+	margin-left: 28px;
+
+}
+.copy {
+	width: 410px;
+	height: 30px;
+	position: relative;
+	top: 200px;
+	margin: 0 auto;
+}
+.footer-arrow {
+	width: 43px;
+	height: 43px;
+	background: url(img/footer-arrow.png) no-repeat;
+	position: relative;
+	left: 1300px;
+	top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
